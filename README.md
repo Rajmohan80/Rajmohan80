@@ -9,6 +9,8 @@ My background is in the infrastructure these systems run on — contact center p
 **[wxcc-slm](https://github.com/Rajmohan80/wxcc-slm)** — Domain-specific AI assistant for Cisco Webex Contact Center solution design.
 RAG pipeline (BGE-M3 embeddings + Qdrant vector store), 9-step LangGraph intent flow, and an MCP server with 11 tools — capacity calculator, compliance checker, HLD generator. Answers solution design questions from Cisco reference material instead of guessing.
 
+**[wxcc-slm-evals](https://github.com/Rajmohan80/wxcc-slm-evals)** — RAGAS evaluation harness for the wxcc-slm pipeline. 27-question golden test set from Cisco Tier-1 corpus, scored on faithfulness, answer relevancy, context precision, and context recall. Adversarial hallucination-resistance testing
+
 **[project-acp](https://github.com/Rajmohan80/project-acp)** — Agentic Control Plane: governed MCP server for AI agent access to enterprise tools.
 OAuth 2.1 scope enforcement, policy-based access control, and full audit logging. Serves Webex Contact Center knowledge and Cisco SD-WAN topology tools (path finding, device role lookup) to AI agents under policy.
 
